@@ -17,7 +17,7 @@ public class XBeeRPiWRITESimulator {
     static SerialPort serialPort;
     static OutputStream outputStream = null;
 
-    @SuppressWarnings("unchecked")
+    //@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
     	System.out.println("Made it to main() ...");
         portList = CommPortIdentifier.getPortIdentifiers();
