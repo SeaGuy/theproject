@@ -29,10 +29,5 @@
     	<version>2.1.7</version>
 	</dependency>
 
-	<dependency>
-		<groupId>com.oracle.java</groupId>
-		<artifactId>jre</artifactId>
-		<version>1.8.0_111</version>
-	</dependency>
   </dependencies>
 </project>
