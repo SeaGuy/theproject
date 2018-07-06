@@ -14754,7 +14754,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="D2" library="diode" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4002"/>
 <part name="SUPPLY3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="4.4K"/>
-<part name="SUPPLY1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -14814,7 +14813,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="47.6814" y="44.83" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="45.212" y="41.91" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="SUPPLY1" gate="1" x="15.24" y="30.48"/>
 <instance part="SUPPLY2" gate="1" x="58.42" y="30.48"/>
 <instance part="SUPPLY4" gate="1" x="73.66" y="30.48"/>
 </instances>
@@ -14836,11 +14834,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="SUPPLY3" gate="1" pin="GND"/>
 <wire x1="43.18" y1="35.56" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="45.72" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -14897,6 +14890,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="22.86" y1="84.28" x2="15.24" y2="84.28" width="0.1524" layer="91"/>
 <label x="10.16" y="73.66" size="1.778" layer="95" rot="MR0"/>
 <junction x="10.16" y="71.12"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

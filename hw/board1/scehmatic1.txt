@@ -1,0 +1,11 @@
+Partlist exported from C:/Users/wlaing/git/theProject/hw/board1/scehmatic1.sch at 7/6/2018 4:51 PM
+
+Part Value       Device           Package      Description                                         PARTNUMBER
+C1   0.1uF       C-EU075-052X106  C075-052X106 CAPACITOR, European symbol                                    
+C2   1uF         CPOL-US085CS-1AR 085CS_1AR    POLARIZED CAPACITOR, American symbol                          
+C3   10uF        CPOL-US085CS-1AR 085CS_1AR    POLARIZED CAPACITOR, American symbol                          
+D1   1N4002      1N4004           DO41-10      DIODE                                                         
+D2   1N4002      1N4004           DO41-10      DIODE                                                         
+IC1  LM317MBSTT3 LM317MBSTT3      SOT223       500 mA Adjustable Output Positive Voltage Regulator LM317     
+R1   240Ω        R-US_M0805       M0805        RESISTOR, American symbol                                     
+R2   4.4K        R-US_M0805       M0805        RESISTOR, American symbol                                     
