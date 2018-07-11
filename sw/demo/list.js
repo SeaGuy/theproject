@@ -9,3 +9,5 @@ WilliamTheCOnqueror
 SimonTheTerrible
 PeterTheGreat
 CatherineTheGreat
+
+LittleBoscito
